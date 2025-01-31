@@ -80,7 +80,7 @@ const RentalListDay = () => {
               Hora de llegada: {rental.endTime}
             </Text>
             <Text style={styles.otherText}>{rental.selectedOption}</Text>
-            {isRentalFinished(rental.endTime) &&
+            {isRentalFinished(rental.startTime) &&
               rental.status !== "finished" && (
                 <TouchableOpacity
                   style={styles.finishButton}
@@ -162,6 +162,8 @@ const styles = StyleSheet.create({
   },
   finishedText: {
     color: "rgba(255, 0, 0, 0.8)",
+    backgroundColor: "white",
+    padding:  10,
     fontWeight: "bold",
     marginTop: 10,
   },

@@ -4,7 +4,7 @@
     "slug": "rental-Kayak",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon/appstore.png",
+    "icon": "./assets/icon/canoas.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -13,16 +13,17 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/icon/canoas.png"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon/canoas.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/icon/appstore.png"
+      "favicon": "./assets/icon/canoas.png"
     },
     "extra": {
       "eas": {
